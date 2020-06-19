@@ -1,0 +1,94 @@
+[data-theme="dark"] {
+  background-color: #111 !important;
+  color: #333;
+}
+
+[data-theme="dark"] .bg-light {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .bg-white {
+  background-color: #000 !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .jumbotron  {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] p.card  {
+  background-color: #333 !important;
+}
+
+
+[data-theme="dark"] a  {
+  color: white !important;
+}
+
+[data-theme="dark"] .card-body  {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .card-text  {
+  color: #ffffff !important;
+}
+
+[data-theme="dark"] .card  {
+  background-color: #333 !important;
+}
+
+[data-theme="dark"] .jumbotron-heading {
+  color: white !important;
+}
+
+
+
+[data-theme="dark"] .custom-control {
+  
+     color:  #ffffff !important;
+}
+[data-theme="dark"] body {
+  
+     color:  #ffffff !important;
+}
+
+[data-theme="dark"] h1 {
+  
+     color:  #ffffff !important;
+}
+
+[data-theme="dark"] .lead {
+  
+     font-size: 2.25rem !important;
+    color: bisque !important;
+}
+
+[data-theme="dark"] .visiblefalse {
+  
+    display: none;
+}
+[data-theme="dark"] .visiblefalse {
+  
+    visibility: hidden !important;
+}
+
+
+
+
+[data-theme="dark"] .visibletrue {
+  
+    display: inline !important;
+}
+
+
+
+[data-theme="dark"] h3 {
+  
+    color: #ffffff !important;
+}
+
+
+
