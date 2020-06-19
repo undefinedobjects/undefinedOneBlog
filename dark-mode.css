@@ -75,7 +75,15 @@
     visibility: hidden !important;
 }
 
+[data-theme="dark"] h2 {
+  
+     color:  #ffffff !important;
+}
 
+[data-theme="dark"] h5 {
+  
+     color:  #ffffff !important;
+}
 
 
 [data-theme="dark"] .visibletrue {
