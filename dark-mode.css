@@ -85,6 +85,11 @@
      color:  #ffffff !important;
 }
 
+[data-theme="dark"] p {
+  
+     color:  #ffffff !important;
+}
+
 
 [data-theme="dark"] .visibletrue {
   
