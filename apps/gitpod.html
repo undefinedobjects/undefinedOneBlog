@@ -25,14 +25,26 @@
 
           <input id="link" type="text" class="form-control" placeholder="Github Proje Adresiniz" aria-label="Recipient's username" aria-describedby="basic-addon2">
           <script>
+          var ad = document.getElementById("link");
+          ad.addEventListener('keyup', function(e) {
+
+            if (e.keyCode === 13) {
+
+              e.preventDefault();
+              document.getElementById("btnRedirect").click();
+
+            }
+
+          });
+
           function myFunction() {
           var ad = document.getElementById("link");
-            var str = "";
-        var result =   window.location.href=("https://gitpod.io#"+ad.value);
+          var str = "";
+          var result =   window.location.href=("https://gitpod.io#"+ad.value);
           }
           </script>
           <div class="input-group-append">
-            <button onclick="myFunction()"   class="btn btn-outline-secondary" type="button">Gitpod</button>
+            <button id="btnRedirect" onclick="myFunction()"   class="btn btn-outline-secondary" type="button">Gitpod</button>
           </div>
             
         </div>
