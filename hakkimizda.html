@@ -29,8 +29,8 @@
         </div>
         <main role="main" class="container">
         <div class="text-center starter-template">
+          <img class="visiblefalse" src="https://github.com/undefinedobjects/undefinedobjects.github.io/blob/master/img/uo-removebg.png?raw=true" width="300" alt="">
           <img class="visibletrue" src="https://github.com/undefinedobjects/undefinedobjects.github.io/blob/master/img/beyaz-uo.png?raw=true" width="300" alt="">
-          <!--<img class="visiblefalse" src="https://github.com/undefinedobjects/undefinedobjects.github.io/blob/master/img/uo-removebg.png?raw=true" width="300" alt="">-->
           <h1 class="text-center mb-3">"Undefined Objects" Nedir ?</h1>
           <p class="text-center lead mb-4">UO, dünyanın en iyi gerçek zamanlı geliştirme platformundan çok daha fazlasıdır - aynı zamanda başarınızı sağlamak için tasarlanmış sağlam bir ekosistemdir. Vizyonunuza ulaşmak için ihtiyacınız olan şeylerden yararlanabilmeniz için dinamik içerik oluşturucu topluluğumuza katılın.</p>
         <div class="alert alert-success" role="alert">
@@ -60,6 +60,31 @@
           <p>2020 For <a href="https://undefinedobjects.github.io/">undefinedobjects</a>, by <a href="https://github.com/undefinedobjects">@undefined.objects</a>.</p>
         </div>
   </footer>
+  <script>
+    function images() {
+
+      if(darkSwitch.checked) {
+
+        document.querySelector(".visibletrue").style.display = 'inline';
+        document.querySelector(".visiblefalse").style.display = 'none';
+
+        } else {
+
+        document.querySelector(".visibletrue").style.display = 'none';
+        document.querySelector(".visiblefalse").style.display = 'inline';
+
+        }
+
+    }
+    darkSwitch.addEventListener('change', () => {
+      images();
+    });
+    window.addEventListener('load', () => {
+      if (darkSwitch) {
+        images();
+      }
+    });
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
